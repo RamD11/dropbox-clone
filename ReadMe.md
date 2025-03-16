@@ -8,11 +8,11 @@ Dropbox Clone is a lightweight, full-stack file storage application inspired by 
 
 ## Features
 
-- **File Upload**: Upload files with a restricted set of extensions (`.jpeg`, `.jpg`, `.png`, `.pdf`, `.docx`, `.txt`, `.doc`, `.xls`, `.xlsx`, `.mp4`).
-- **File List**: Displays a table of uploaded files with columns: Name (clickable to view), Size (human-readable), Time Uploaded, and Download button.
+- **File Upload**: Upload files with a restricted set of extensions (`.jpeg`, `.jpg`, `.png`, `.pdf`, `.docx`, `.txt`, `.doc`, `.xls`, `.xlsx`).
+- **File List**: Displays a table of uploaded files with columns: Name (clickable to view in nw tab), Size (human-readable), Time Uploaded, and aDownload button.
 - **File Download**: Download files via a button in the table.
-- **File Viewing**: View file contents in a new tab by clicking the file name (best for text files; other types may download).
-- **UI Design**: Features a dark blue header and a thick gray-bordered table, styled with Material-UI.
+- **File Viewing**: View file contents in a new tab by clicking the file name (best for text files; other types end up downloading instead of viewing).
+- **UI Design**: Features a header and a gray-bordered table, styled with Material-UI.
 - **State Management**: Uses React Context for centralized file data and actions.
 - **Persistent Storage**: Stores file metadata in MySQL and files in the filesystem.
 
