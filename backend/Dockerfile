@@ -13,4 +13,5 @@ COPY . .
 # Make the wait script executable
 RUN chmod +x wait_for_mysql.sh
 
-CMD ["./wait_for_mysql.sh"]
+# Using bash explicitly 
+CMD ["bash", "./wait_for_mysql.sh"]
