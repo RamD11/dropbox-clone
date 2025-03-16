@@ -43,6 +43,9 @@ Dropbox Clone is a lightweight, full-stack file storage application inspired by 
 - Windows PowerShell (or another terminal)
 - Git (optional, for cloning)
 
+### Note:
+- ensure line endings is LF for "dropbox-clone\backend\wait_for_mysql.sh" and not CRLF
+
 ### Steps
 1. **Clone the Repository**:
    ```powershell
